@@ -1,0 +1,53 @@
+ncriar pasta para o laboratorio
+abrir windwos power shell na pasta criada
+dar o comando
+code .
+
+Ou abre a pasta no VSCode como um projeto existente
+
+Terminal e novo terminal
+Aparece um terminal na pasta
+Comando
+npm init -y
+
+Nome do projeto - new file
+index.js
+
+escrever
+console.log('Ola mundo!')
+
+salva
+no terminal:
+node index
+
+https://www.npmjs.com/package/express
+
+const express = require('express')
+const app = express()
+ 
+app.get('/', function (req, res) {
+  res.send('Hello World')
+})
+ 
+app.listen(3000)
+
+copiar o código de exemplo e executar
+salva(Ctrl+S)
+no terminal: node index
+
+Apareceu um erro. Nâo tem módulo express
+
+no terminal: npm i express
+
+node index
+
+clica no raio (thunder client) e pede new request
+coloca o endereço localhost:3000
+send
+reebe resposta Hello World
+
+Ctrl+C encerra a aplicação
+
+video da aula
+https://www.youtube.com/watch?v=F81k9w8gDJs
+
