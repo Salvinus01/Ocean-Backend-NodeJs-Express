@@ -51,3 +51,16 @@ Ctrl+C encerra a aplicação
 video da aula
 https://www.youtube.com/watch?v=F81k9w8gDJs
 
+Discord de Paulo Salvatore
+https://discord.gg/BRjMwnCmfk
+
+subir com extensão de desenvolvimento
+npm run dev
+precisa do script de dev e módulos de monitoramento
+
+vídeo sobre NEST
+https://www.youtube.com/watch?v=bAH4nBb1NFc
+
+
+
+
