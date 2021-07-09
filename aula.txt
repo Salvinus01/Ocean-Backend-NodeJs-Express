@@ -61,6 +61,16 @@ precisa do script de dev e módulos de monitoramento
 vídeo sobre NEST
 https://www.youtube.com/watch?v=bAH4nBb1NFc
 
+ver entrevista na Rochet
+
+https://www.youtube.com/watch?v=F81k9w8gDJs
+
+MongDB é NoSQL
+NoSQL tabelas viram colections
+Colections não tem Schemas
+MongoDB é orientado a documentos
+O documento é estruturado em JSON
+
 
 
 
