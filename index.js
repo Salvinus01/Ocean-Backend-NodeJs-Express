@@ -75,5 +75,5 @@ Quando uma aplicação segue os padrões REST, ela é chamada de RESTful
     res.send("filme excluido com sucesso");
   });
 
-  app.listen(3000);
+  app.listen(process.env.PORT || 3000);
 })();
