@@ -38,7 +38,7 @@ Quando uma aplicação segue os padrões REST, ela é chamada de RESTful
 */
 
   const lista = ["Senhor dos Anéis", "Harry Potter"];
-  //const collFilmes = db.collection("filmes");
+  const collFilmes = db.collection("filmes");
 
   // [GET] - Read all
   //  com função anônima
