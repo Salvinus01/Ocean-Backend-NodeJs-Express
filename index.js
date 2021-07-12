@@ -8,11 +8,11 @@ const { MongoClient, ObjectId } = require("mongodb");
 
   console.info("Conectando ao banco de dados...");
 
-  const client = await MongoClient.connect(url, { useUnifiedTopology: true });
+  //const client = await MongoClient.connect(url, { useUnifiedTopology: true });
 
   console.info("MongoDB conectado com sucesso!");
 
-  const db = client.db(dbName);
+  //const db = client.db(dbName);
 
   //Indica que todo corpo de request está estruturado em JSON
   app.use(express.json());
@@ -41,7 +41,8 @@ Quando uma aplicação segue os padrões REST, ela é chamada de RESTful
   // [GET] - Read all
   //  com função anônima
   app.get("/filmes", async function (req, res) {
-    const listaFilmes = await collFilmes.find().toArray();
+    //const listaFilmes = await collFilmes.find().toArray();
+    const listaFilmes = undefined;
     res.send(listaFilmes);
   });
 
