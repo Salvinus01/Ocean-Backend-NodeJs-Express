@@ -1,2 +1,2 @@
 # Ocean-Backend-NodeJs-Express
- Laboratório de criação de servilos com NodeJs do curso da Ocean Brasil
+ Laboratório de criação de serviços com NodeJs do curso da Ocean Brasil
