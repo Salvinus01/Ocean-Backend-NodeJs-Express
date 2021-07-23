@@ -2,8 +2,6 @@ const express = require("express");
 const app = express();
 const { MongoClient, ObjectId } = require("mongodb");
 
-app.use(cors())
-
 (async () => {
   //const url = "mongodb://localhost:27017";
   const url = "mongodb+srv://admin:GVzwT2kZzR8XugnD@cluster0.ovq4e.mongodb.net/ocean_db?retryWrites=true&w=majority";
